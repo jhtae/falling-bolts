@@ -1,0 +1,47 @@
+html,
+body,
+figure,
+figcaption,
+ul,
+li,
+h1,
+h2,
+div,
+button,
+canvas,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Nova Oval';
+    text-align: inherit;
+    background: transparent;
+}
+
+html {
+    font-size: 36px;
+    background-image: url(assets/background.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+html {
+    position: relative;
+}
+
+#html canvas,
+#instructions {
+    position: absolute;
+}
+
+body {}
+
+canvas {
+    display: flex;
+    justify-content: center;
+    background-image: url(assets/game-background.png);
+    background-size: cover;
+    height: 600px;
+    width: 1000px;
+}
